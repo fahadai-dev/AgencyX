@@ -1,0 +1,15 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #121212;
+  color: white;
+  border-bottom: 1px solid #333;
+}
+.logo { font-size: 24px; font-weight: bold; }
+.logo span { color: #007bff; }
+.navLinks { display: flex; list-style: none; gap: 30px; }
+.navLinks li { cursor: pointer; transition: 0.3s; }
+.navLinks li:hover { color: #007bff; }
